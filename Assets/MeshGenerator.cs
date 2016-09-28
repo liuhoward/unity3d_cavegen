@@ -326,7 +326,6 @@ public class MeshGenerator : MonoBehaviour {
 			if (bottomLeft.active)
 				configuration += 1;
 		}
-
 	}
 
 	public class Node {
@@ -348,6 +347,5 @@ public class MeshGenerator : MonoBehaviour {
 			above = new Node(position + Vector3.forward * squareSize/2f);
 			right = new Node(position + Vector3.right * squareSize/2f);
 		}
-
 	}
 }
